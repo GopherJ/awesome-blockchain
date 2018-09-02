@@ -1,12 +1,13 @@
 # Awesome Blockchain
 
 [![](https://camo.githubusercontent.com/13c4e50d88df7178ae1882a203ed57b641674f94/68747470733a2f2f63646e2e7261776769742e636f6d2f73696e647265736f726875732f617765736f6d652f643733303566333864323966656437386661383536353265336136336531353464643865383832392f6d656469612f62616467652e737667)](https://github.com/sindresorhus/awesome)
-[![](https://camo.githubusercontent.com/15a53d5ec5d896319068168a27da0203156bbdb9/68747470733a2f2f6a617977636a6c6f76652e6769746875622e696f2f73622f6c616e672f656e676c6973682e737667)](README.md)
-[![](https://camo.githubusercontent.com/cb8cb80af654f3dae14a4aa62e44bf62f16953d6/68747470733a2f2f6a617977636a6c6f76652e6769746875622e696f2f73622f6c616e672f6368696e6573652e737667)](README-zh.md)
+[![](https://camo.githubusercontent.com/cb8cb80af654f3dae14a4aa62e44bf62f16953d6/68747470733a2f2f6a617977636a6c6f76652e6769746875622e696f2f73622f6c616e672f6368696e6573652e737667)](README.md)
+[![](https://camo.githubusercontent.com/15a53d5ec5d896319068168a27da0203156bbdb9/68747470733a2f2f6a617977636a6c6f76652e6769746875622e696f2f73622f6c616e672f656e676c6973682e737667)](README-en.md)
 
-这个仓库主要是用来搜集区块链开发相关的资源，请随意Star或者Fork。有任何建议和评论，[请提交到这里](https://github.com/guantau/awesome-blockchain/issues)。欢迎各种PR :)，格式参考 [awesome](https://github.com/sindresorhus/awesome) 的清单。
+这个仓库主要是用来搜集区块链开发相关的资源，请随意Star或者Fork。如果有任何建议和评论，[请提交到这里](https://github.com/guantau/awesome-blockchain/issues)。欢迎提交各种PR :)，格式参考 [awesome](https://github.com/sindresorhus/awesome) 的清单。
 
-[English](README-en.md) | [中文](README.md)
+[中文](README.md) | [English](README-en.md)
+
 ## 目录
 
 + [书籍](#书籍)
@@ -15,12 +16,15 @@
 + [论坛](#论坛)
 + [网站](#网站)
 + [课程](#课程)
++ [共识](#共识)
++ [Web3](#Web3)
++ [DAPP](#DAPP)
 + [比特币](#比特币)
 + [以太坊](#以太坊)
 + [应用](#应用)
-+ [媒体频道](#媒体频道)
++ [媒体](#媒体)
 + [工具](#工具)
-+ [量化交易](#量化交易)
++ [交易](#交易)
 + [其它](#其它)
 
 ## 书籍
@@ -41,6 +45,7 @@
 
 
 ### 电子书
+
 + [yeasy-区块链技术指南](https://www.gitbook.com/book/yeasy/blockchain_guide/details)
 + [朱志文-Node.js开发加密货币](http://bitcoin-on-nodejs.ebookchain.org/)
 + [申屠青春-区块链开发者指南](http://book.8btc.com/books/6/blockchain-developer-guide/_book/)
@@ -49,6 +54,7 @@
 
 
 ## 视频
+
 + [以太坊、区块链技术视频 - EthCast](http://ethcast.com/) - 蓝莲花录制视频
 + [cryptflix](https://cryptflix.com) - 按币种分类介绍视频
 + [The Cryptoverse](https://www.youtube.com/channel/UCLnQ34ZBSjy2JQjeRudFEDw)  - Your cryptocurrency news dose.
@@ -66,17 +72,50 @@
 + [BiteSizeBitcoin](https://www.youtube.com/channel/UCnePINazJJpbn9FWaq_skQA/featured)  - Great beginner guides. Trading and investing advices, podcasts and meetups.
 + [Decentralized TV](https://www.youtube.com/channel/UCueLJ4vLHTwMpYILmdBjRlg)  - Blockchain, Bitcoin, and Cryptocurrency News, Culture, and Entertainment.
 + [Crypto Daily](https://www.youtube.com/channel/UC67AEEecqFEc92nVvcqKdhA)  - Crypto news on (mostly) daily basis.
++ [BitFilm](https://www.bitfilm.com/)
 
 ## 文章
-+ [区块链开发技术综述](http://mp.weixin.qq.com/s/LSTYz1LyRdrhOwbg0f4v2A) 孟岩，IBM大中华区高级经理
+
 + [A Crash Course in Mechanism Design for Cryptoeconomic Applications](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976) 加密货币应用的机制设计
-+ [The Meaning of Decentralization – Vitalik Buterin – Medium](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) 去中心化的意义
-+ [A Hitchhiker’s Guide to Consensus Algorithms – Hacker Noon](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3) 共识算法搭车者指南
++ [The Meaning of Decentralization – Vitalik Buterin – Medium](https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274) 去中心化的意义，创新地提出了三种类型的去中心化**【推荐】**
 + [Zero knowledge proofs: a tale of two friends – Hacker Noon](https://hackernoon.com/zero-knowledge-proofs-a-tale-of-two-friends-d7a0ffac3185) 零知识证明
 + [The Crypto Canon – Andreessen Horowitz](https://a16z.com/2018/02/10/crypto-readings-resources/) 加密货币入门资源汇总
-+ [Fundamental challenges with public blockchains – Preethi Kasireddy – Medium](https://medium.com/@preethikasireddy/fundamental-challenges-with-public-blockchains-253c800e9428) 公有链的挑战
++ [Fundamental challenges with public blockchains – Preethi Kasireddy – Medium](https://medium.com/@preethikasireddy/fundamental-challenges-with-public-blockchains-253c800e9428) 公有链的挑战，深入讨论了目前区块链面临的问题**【推荐】**
 + [如何成为一名区块链工程师？](http://mp.weixin.qq.com/s/_UjgFkC_ins2svFPvduvhw)
 + [通证经济系统设计的一个优秀范例——般若链](http://mp.weixin.qq.com/s/Y3nYkohocr7cvMrI1B8lwg)
++ [区块链开发技术综述](http://mp.weixin.qq.com/s/LSTYz1LyRdrhOwbg0f4v2A) 孟岩，IBM大中华区高级经理
++ [匿名币综述](https://thecontrol.co/an-overview-of-privacy-in-cryptocurrencies-893dc078d0d7)
++ [A Brief History of Blockchain: An Investor’s Perspective](https://medium.com/hummingbird-ventures/a-brief-history-of-blockchain-an-investors-perspective-387c440ad11c) - 从投资者角度来看的区块链简史
++ [Blockchain Scalability: When, Where, How?](https://blockgeeks.com/guides/blockchain-scalability/) - 提供了大量详实的数据图表**【推荐】**
++ [Building a Blockchain for more than cryptocurrency](https://medium.com/@sambirdthenerd/building-a-blockchain-for-more-than-cryptocurrency-eb26f481d747) - 从0设计一个区块链并编码
++ [Design Thinking for Blockchains](https://medium.com/patara/design-thinking-for-blockchains-ded1d6cabe53)
++ [Blockchain vs. Distributed Ledger Technologies](https://media.consensys.net/blockchains-vs-distributed-ledger-technologies-part-2-governing-dynamics-a697848d5b82)
++ [The Other Side of the Coin A different perspective on cryptocurrencies](https://medium.com/@nik5ter/the-other-side-of-the-coin-f293b65b1eda)
++ [ContractPedia: An Encyclopedia of 40 Smart Contract Platforms](https://hackernoon.com/contractpedia-an-encyclopedia-of-40-smart-contract-platforms-4867f66da1e5) - 智能合约平台大全**【推荐】**
++ [Blockchain Infrastructure Landscape: A First Principles Framing - Manifesting Storage, Computation, and Communications](https://blog.bigchaindb.com/blockchain-infrastructure-landscape-a-first-principles-framing-92cc5549bafe)
++ [The Logic of Layer 2 Scaling](https://cryptodigestnews.com/the-logic-of-layer-2-scaling-fe51a8879e13)
++ [Three “Second Layer” Blockchain Solutions to Keep an Eye On](https://hackernoon.com/three-second-layer-blockchain-solutions-to-keep-an-eye-on-db16f1f5e041)
++ [Building general purpose blockchain - towards blockchain solution for any micro service ecosystems](https://hackernoon.com/building-general-purpose-blockchain-71ffb8511ce)
++ [Blockchainable Industries](https://medium.com/@anuj_85518/blockchainable-industries-790a223248e6) - 区块链在产业中的应用
++ [Difference Between SideChains and State Channels - A complete comparison of the two scaling methods.](https://hackernoon.com/difference-between-sidechains-and-state-channels-2f5dfbd10707)
++ [Consensus, Casper and Cryptoeconomics in 15 minutes or less](https://medium.com/@jpa_of_snc/consensus-casper-and-cryptoeconomics-in-15-minutes-or-less-c7ca2427bf88)
++ [My Crypto journey from 2011 to 2018](https://blog.goodaudience.com/my-crypto-journey-from-2011-to-2018-8fe6f34d5f13)
++ [Blockchain Developer Learning Resources](https://medium.com/work-on-blockchain/blockchain-developer-learning-resources-1b35bf132edf)
++ [Making Sense of “Cryptoeconomics”](https://medium.com/l4-media/making-sense-of-cryptoeconomics-5edea77e4e8d)
++ [The Missing Blockchain User Guide](https://hackernoon.com/the-missing-blockchain-user-guide-1b5f53ab69e0)
++ [Let’s Build the Tiniest Blockchain In Less Than 50 Lines of Python](https://medium.com/crypto-currently/lets-build-the-tiniest-blockchain-e70965a248b)
++ [Valuable Online Resources for Cryptocurrency Newbies](https://blog.goodaudience.com/valuable-online-resources-for-cryptocurrency-newbies-bbbbec307007)
++ [DAOs and the Future of Work - A Brave New Decentralized World](https://hackernoon.com/daos-and-the-future-of-work-97b4c076f288)
++ [A Brief History of Blockchain: An Investor’s Perspective](https://medium.com/hummingbird-ventures/a-brief-history-of-blockchain-an-investors-perspective-387c440ad11c)
++ [Blockchain and the Challengers](https://medium.com/@kctheservant/blockchain-and-the-challengers-74e22cf0cf4e)
++ [Today’s Crypto Asset Valuation Frameworks](https://blockchainatberkeley.blog/todays-crypto-asset-valuation-frameworks-573a38eda27e) - 数字资产评价框架
++ [Towards a Practice of Token Engineering](https://blog.oceanprotocol.com/towards-a-practice-of-token-engineering-b02feeeff7ca)
++ [The Ultimate Guide To Understanding The Basics of Blockchain and Cryptocurrencies](https://hackernoon.com/the-ultimate-guide-to-understanding-blockchain-and-cryptocurrencies-f37cf4c0043)
++ [Scaling cryptocurrencies: Holo(chain)](https://medium.com/holochain/scaling-cryptocurrencies-holo-chain-3c1745a59cc5)
++ [The authoritative guide to blockchain development](https://medium.freecodecamp.org/the-authoritative-guide-to-blockchain-development-855ab65b58bc)
++ [How to Build a Simple Crypto Trading Simulator](https://hackernoon.com/how-to-build-a-simple-crypto-trading-simulator-part-1-4ccdddcd6b76)
++ [On the Scalability of Blockchains](https://thecontrol.co/on-the-scalability-of-blockchains-ec76ed769405)
++ [Technology Choices When Building Your Own Blockchain](https://blog.cosmos.network/technology-choices-when-building-your-own-blockchain-a15385cf59bd)
 
 ## 论坛
 
@@ -88,18 +127,21 @@
 
 
 ## 网站
+
 + [深入浅出区块链](https://learnblockchain.cn/) - 技术开发，Tiny熊，附有[Wiki介绍 · 深入浅出区块链文档](https://wiki.learnblockchain.cn/)
 + [汪晓明对区块链、以太坊的思考](http://wangxiaoming.com/) - 以太坊开发资料，汪晓明，朝夕网络(http://zhaoxi.io，区块链咨询服务)以及芯链HPB创始人
 + [黎跃春区块链博客](http://liyuechun.org/archive/) - 黎跃春，链乎创始人
 + [区块链技术博客](http://me.tryblockchain.org/) - 以太开发文档
 + [Learn Blockchain Coding & Much More. We’ll help you get clarity.](https://blockgeeks.com/)
-+ [CoinSutra: Bitcoin Tips, Tutorials & Community](https://coinsutra.com/) - 非常好的媒体网站，每天有大量的基础性文章发布
 + [Crypto Disrupt – More Crypto, Less Noise](https://cryptodisrupt.com) - 数字货币相关文章，可以订阅各种空投
 + [100+ Coins Explained Explore Quick Summaries of Popular Cryptocurrencies](https://www.upfolio.com/100-coins-explained)
 + [GitHub - btomashvili/awesome-ethereum: Awesome Ethereum Resources](https://github.com/btomashvili/awesome-ethereum)
-+ [GitHub - chaozh/awesome-blockchain-cn: 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料](https://github.com/chaozh/awesome-blockchain-cn)
++ [GitHub - chaozh/awesome-blockchain-cn](https://github.com/chaozh/awesome-blockchain-cn) - 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
++ [BlockchainTranslator (BlockchainTranslator) · GitHub](https://github.com/BlockchainTranslator) -  区块链文档翻译组，翻译各类优质文章**【推荐】**
++ [Multicoin Capital](https://multicoin.capital/) - 提供大量优质的项目分析报告**【推荐】**
 
 ## 课程
+
 + [Bitcoin and Cryptocurrency Technologies | Coursera](https://www.coursera.org/learn/cryptocurrency)
 + [Ethereum Blockchain Education](https://consensys.net/academy/) - consensys推出的课程
 + [Ethereum and Solidity: The Complete Developer's Guide | Udemy](https://www.udemy.com/ethereum-and-solidity-the-complete-developers-guide/learn/v4/overview)
@@ -108,16 +150,105 @@
 + [Ethereum Network - The Hitchhiker's Guide to the Ethereum Blockchain](https://ethereum.network/learn)
 + [DappHub · GitHub](https://github.com/dapphub)
 + [B9lab delivers education, advisory & research on blockchain and decentralised applications.](https://www.b9lab.com/)
-+ [GitHub - anders94/blockchain-demo: A web-based demonstration of blockchain concepts.](https://github.com/anders94/blockchain-demo) - 用可视化的方法展示区块链原理
++ [GitHub - anders94/blockchain-demo: A web-based demonstration of blockchain concepts.](https://github.com/anders94/blockchain-demo) - 用可视化的方法展示区块链原理**【推荐】**
 + [GitHub - anders94/public-private-key-demo: Demonstrates public / private key pairs and signing in a blockchain context](https://github.com/anders94/public-private-key-demo) - 用可视化的方法展示非对称加密
++ [Decentralized Applications](https://www.theschool.ai/courses/decentralized-applications) - DAPP开发课程，具有一定深度
+
+## 共识
+
+### 综述
+
++ [Distributing Trust with Blockchains](https://cachin.com/cc/talks/20180705-blockchain-cern.pdf) - 深入浅出地介绍了各类共识算法，并配有图例**【推荐】**
++ [Scaling, Decentralization, Security of Distributed Ledgers](https://medium.com/@shelby_78386/scaling-decentralization-security-of-distributed-ledgers-3855aa570eb5) - iamnotback的4篇雄文，深入讨论了各种共识机制**【推荐】**
++ [A Hitchhiker’s Guide to Consensus Algorithms – Hacker Noon](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3) - 共识算法搭车者指南
++ [ConsensusPedia: An Encyclopedia of 30 Consensus Algorithms - A complete list of all consensus algorithms.](https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f) - 共识算法大全**【推荐】**
++ [Consensus Mechanisms Explained: PoW vs. PoS](https://hackernoon.com/consensus-mechanisms-explained-pow-vs-pos-89951c66ae10)
+
+### POS
+
++ [ALabs丨权益证明PoS背景、进展](https://mp.weixin.qq.com/s?__biz=MzU4NDM1Mjk2NA==&mid=2247485120&idx=1&sn=b4fc917c55c43320d6172568ead25e68&chksm=fd9a536bcaedda7d63c19718c450c0c022494dfcf237c186081cc5668a50f8d2197f813007f3&mpshare=1&scene=1&srcid=0817EwlnEgGxqEKULZkmXxuI#rd)
++ [干货 | 权益证明 FAQ（完整版） » 论坛 » EthFans | 以太坊爱好者](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
++ [干货 | Ethereum Casper 101  » 论坛 » EthFans | 以太坊爱好者](https://ethfans.org/posts/ethereum-casper-101)
++ [干货 | 什么是以太坊大都会：终极指南 » EthFans | 以太坊爱好者](https://ethfans.org/zzzhang/articles/618)
++ [Nothing Considered: A look at Nothing at Stake Vulnerability for Cryptocurrencies | PIVX](https://pivx.org/nothing-considered-a-look-at-nothing-at-stake-vulnerability-for-cryptocurrencies/) 对Nothing at Stake攻击的反驳
+
+## Web3
+
++ [Hello World 世界，你好 - Web3 基金会介绍](https://github.com/BlockchainTranslator/General/blob/master/NonTechDoc/hello-world.md)
++ [Why the Web 3.0 Matters and you should know about it | 为什么 Web 3.0 很重要并且你应该了解它](https://github.com/BlockchainTranslator/General/blob/master/TechDoc/why-the-web-3-0-matters-and-you-should-know-about-it.md)
++ [Why the net giants are worried about the Web 3.0|为什么巨头们会为 WEB 3.0 而担忧](https://github.com/BlockchainTranslator/General/blob/master/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B7%A8%E5%A4%B4%E4%BB%AC%E4%BC%9A%E4%B8%BA%20WEB%203.0%20%E8%80%8C%E6%8B%85%E5%BF%A7.md)
++ [去中心化的Web 3.0是什么来头？互联网巨头们颤抖吧……](https://mp.weixin.qq.com/s/pmJBosOga8ZDxD4Et9uOAg)
++ [什么是Web 3.0？你为什么应该了解它？](https://mp.weixin.qq.com/s/bJ9GOXNj9DSv1MsKshd0uA)
++ [The Web3 Stack - Multicoin Capital](https://multicoin.capital/2018/07/10/the-web3-stack/) 
++ [链闻深度：Web3 堆栈全景剖析](https://mp.weixin.qq.com/s/4LdRVceiBqYZW9WrMmJOIA)
++ [你需要知道的 Web 3.0 图景，统统在这里](https://mp.weixin.qq.com/s/RBysmlDqbwcoYmoA7t-sFg)
++ [Web 3.0 Dapps 来临：开源、去中心、激励、算法/协议](https://mp.weixin.qq.com/s/YVrkxw7nji3uj0FBGykXgQ) 文末有很多可用的PPT
++ [也谈Web 3.0](https://mp.weixin.qq.com/s/HBxF4cUxmynQ89yVwznxFA) 对Gavin Wood提出的Web3.0给出了自己的理解
++ [Web3：新信任模型](https://mp.weixin.qq.com/s/xNdzirY5s27o1Kg_wq0Jgw)
++ [Web3.0：区块链定义分布式互联网](https://mp.weixin.qq.com/s/GcxuuGdiVYwQ_rUK-663SA)
++ [ĐApps: What Web 3.0 Looks Like](http://gavwood.com/dappsweb3.html) ETH CTO Gavin Wood描述的关于下一代互联网场景，他是Polkadot和Web3基金会创始人**【推荐】**
++ [Less-techy: What is Web 3.0?](http://gavwood.com/web3lt.html) 非技术化的版本
++ [Web3.0重新来临-第一篇：跨链和跨协议](https://mp.weixin.qq.com/s/0KbEPr9FBQHzkBOa-Vr9hQ)
++ [Web3.0重新来临-第二篇：介绍Polkadot的是与否](https://mp.weixin.qq.com/s/FO9BrKvGh3lcvznXOju5Nw)
++ [Web3.0重新来临-第三篇：Polkadot如何集成4个区块链网络，对我们开发者意味着什么](https://mp.weixin.qq.com/s/oiXwdtnoU9c0u-5PWEAD-w)
++ [Web 3.0 Revisited — Part One: “Across Chains and Across Protocols”](https://blog.stephantual.com/web-3-0-revisited-part-one-across-chains-and-across-protocols-4282b01054c5)
++ [Web 3.0 Revisited — Part Two: “Introduction to Polkadot: what it is, what it ain’t”](https://blog.stephantual.com/web-three-revisited-part-two-introduction-to-polkadot-what-it-is-what-it-aint-657782051d34)
++ [A Letter to Jamie Dimon](https://blog.chain.com/a-letter-to-jamie-dimon-de89d417cb80?source=linkShare-1ad7d55c58f6-1534305146) - 从DAPP角度看待区块链**【推荐】**
++ [Understanding Web 3 — A User Controlled Internet](https://blog.coinbase.com/understanding-web-3-a-user-controlled-internet-a39c21cf83f3)
++ [Implications of Web 3.0](https://medium.com/@quantalysus/implications-of-web-3-0-b0aa4b185c6d)
++ [A Warm Welcome to Web3 and the Future of the Internet](https://media.consensys.net/a-warm-welcome-to-web3-89d49e61a7c5)
++ [Intro to crypto, and The Internet of Value](https://medium.com/circle-blog/intro-to-crypto-and-the-internet-of-value-21d29691d607)
++ [A personal look at the early days of Internet vs blockchain today](https://medium.com/@pelleb/personal-look-at-the-early-days-of-internet-vs-blockchain-today-590a98cb009f)
++ [WTF is an Ethereum Dapp ?](https://medium.com/dappradar-com/wtf-is-an-ethereum-dapp-9d87704825d3)
++ [6 Ways to Monetize Your Ethereum DApps](https://medium.com/loom-network/6-ways-to-monetize-your-ethereum-dapps-part-1-28e9bb18f87e)
++ [Web 2.0 is Broken. It’s Time for a New Paradigm Shift](https://medium.com/@matteozago/web-2-0-is-broken-its-time-for-a-new-paradigm-shift-2a4b1fc2ff60)
++ [Web3 Design Principles](https://medium.com/@lyricalpolymath/web3-design-principles-f21db2f240c1)
+
+## DAPP
++ [The Ðapp Daily-Ethereum ecosystem updates from Sourcerers](https://dappdaily.com/)
++ [ETH Decentralized apps list | DAPPRadar](https://dappradar.com/)
++ [State of the ÐApps — 1074 Projects Built on Ethereum](https://www.stateofthedapps.com/)
++ [Dapptrack](https://dapptrack.com/)
++ [Essentia - Create Your Decentralized Life](https://essentia.one/)
++ [Ethplorer — Ethereum tokens explorer and data viewer](https://ethplorer.io/)
++ [DAPPED](https://dapped.io/)
++ [DappReview](https://dapp.review/)
++ [Build your first dApp in 5 minutes - All you need is Javascript](https://blog.dharma.io/build-your-first-dapp-in-5-minutes-f8864620beb8)
++ [The dApp Design Pattern](https://medium.com/radarrelay/the-dapp-design-pattern-fe786b8da8a9)
++ [50+ Examples of How Blockchains are Taking Over the World](https://medium.com/@matteozago/50-examples-of-how-blockchains-are-taking-over-the-world-4276bf488a4b)
++ [6 principles for designing blockchain apps for non-technical users](https://hackernoon.com/6-principles-for-designing-dapps-for-regular-people-from-a-consensus-18-hackathon-winner-134cdb881cc1)
++ [How Blockchain Is Changing The Gambling Industry](https://cryptodigestnews.com/how-blockchain-is-changing-the-gambling-industry-e4a8fd69fc91)
++ [2018 — The Year of DApps](https://cryptodigestnews.com/2018-the-year-of-dapps-de0e14c6d4ee)
++ [Popular Use Cases of Blockchain Technology You Need to Know - Applications of Blockchain](https://hackernoon.com/popular-use-cases-of-blockchain-technology-you-need-to-know-df4e1905d373)
++ [Cryptotask — Live Ethereum DAPP](https://medium.com/@bernd.lapp/cryptotask-live-ethereum-dapp-d5a46df601b3)
++ [A Brief Overview of dApp Development](https://thecontrol.co/a-brief-overview-of-dapp-development-b8ac1648322c)
++ [Create your first Ethereum dAPP with Web3 and Vue.JS](https://itnext.io/create-your-first-ethereum-dapp-with-web3-and-vue-js-c7221af1ed82)
++ [A guide to developing an Ethereum decentralized voting application](https://medium.freecodecamp.org/developing-an-ethereum-decentralized-voting-application-a99de24992d9)
++ [We already know blockchain’s killer apps](https://hackernoon.com/we-already-know-blockchains-killer-apps-f2d443eba35)
++ [million user dapps on ethereum - an introduction to application specific sidechains](https://medium.com/loom-network/million-user-dapps-on-ethereum-an-introduction-to-application-specific-sidechains-c0fdc288c5e5)
++ [如何构建Decentraland？](https://medium.com/@anderson.c/%E7%99%BD%E7%9A%AE%E6%9B%B8%E7%95%A5%E8%AE%80%E7%AD%86%E8%A8%98-%E5%A6%82%E4%BD%95%E6%A7%8B%E6%88%90-decentraland-a624b3baf4d2)
++ [Launch A Decentralized Identity Application using the Developer Friendly uPort/React Truffle Box](https://hackernoon.com/launch-a-decentralized-identity-application-using-the-developer-friendly-uport-react-truffle-box-95d1ddf176ea)
++ [Build a simple Ethereum + InterPlanetary File System (IPFS)+ React.js DApp.](https://itnext.io/build-a-simple-ethereum-interplanetary-file-system-ipfs-react-js-dapp-23ff4914ce4e)
++ [How to Code Your Own CryptoKitties-Style Game on Ethereum](https://medium.com/loom-network/how-to-code-your-own-cryptokitties-style-game-on-ethereum-7c8ac86a4eb3)
++ [Ultimate Guide to Convert a Web App To a Decentralized App Dapp](https://medium.com/@merunasgrincalaitis/ultimate-guide-to-convert-a-web-app-to-a-decentralized-app-dapp-f6112a079509)
++ [Ethereum Dapps Ecosystem overview](https://medium.com/@skirmantas.januskas/ethereum-dapps-ecosystem-overview-22184749b569)
++ [What is a DAPP?](https://towardsdatascience.com/what-is-a-dapp-a455ac5f7def)
++ [Building a production-ready Ethereum DApp from idea to final product — The smart-contract](https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-the-smart-contract-pt-3-2e117c74e61e)
++ [Building a fully decentralized User profile app on Ethereum and IPFS](https://medium.com/@sebinatx/building-a-fully-decentralized-user-profile-dapp-on-ethereum-and-ipfs-e55afac35718)
 
 ## 比特币
 
 + [Bitcoin Platform and API | Bitcore](https://bitcore.io/) - 开发区块链浏览器和钱包
++ [Introducing BlockFuse: Making Litecoin and Bitcoin App Development Easy](https://medium.com/blockfuse/introducing-blockfuse-making-litecoin-and-bitcoin-app-development-easy-6f148c500585) - 开发Bitcoin应用的工具
++ [Traditional Bitcoin Mixers](https://medium.com/@nopara73/traditional-bitcoin-mixers-6a092e59d8c2)
++ [A Guide To Bitcoin’s Technical Brilliance (For Non-Programmers)](https://medium.com/digitalassetresearch/a-guide-to-bitcoins-technical-brilliance-for-non-programmers-e28211e797c0)
++ [The Bitcoin Scaling Debate: Context, Proposed Solutions, and the Future](https://hackernoon.com/the-bitcoin-scaling-debate-context-proposed-solutions-and-the-future-579f9373e24b)
 
 ### 侧链
 + [A simple explanation of Bitcoin “Sidechains” | Richard Gendal Brown](https://gendal.me/2014/10/26/a-simple-explanation-of-bitcoin-sidechains/)
 + https://www.blockstream.com/sidechains.pdf
++ [11 sidechain projects every blockchain developer should know about](https://hackernoon.com/13-sidechain-projects-every-blockchain-developer-should-know-about-804b65364107) - 侧链项目介绍**【推荐】**
++ [DAppChains: Scaling Ethereum DApps Through Sidechains](https://medium.com/loom-network/dappchains-scaling-ethereum-dapps-through-sidechains-f99e51fff447)
 
 ## 以太坊
 
@@ -135,8 +266,40 @@
 + [Ethereum Bounty Program](https://bounty.ethereum.org/)
 + [GitHub - ethereum/wiki: The Ethereum Wiki -](https://github.com/ethereum/wiki)
 + [Week in Ethereum News](http://www.weekinethereum.com/)
++ [State of Ethereum Protocol #1](https://media.consensys.net/state-of-ethereum-protocol-1-d3211dd0f6) - 关于以太扩展性的讨论
++ [Ethereum Will Be the Backbone of the New Internet](https://medium.com/loom-network/ethereum-will-be-the-backbone-of-the-new-internet-88718e08124f) - Loom对以太优势的论述
++ [Getting Deep Into Ethereum: How Data Is Stored In Ethereum?](https://hackernoon.com/getting-deep-into-ethereum-how-data-is-stored-in-ethereum-e3f669d96033) - 以太数据是如何存储的**【推荐】**
++ [Casper & Smart Contract Consensus](https://media.consensys.net/casper-smart-contract-consensus-7be6cfa6f7ec)
++ [State Channels for Babies](https://medium.com/blockchannel/state-channels-for-babies-part-2-40e6b2ebec42)
++ [ERC Token Standards for Dummies, Like Me](https://medium.com/techracers/erc-token-standards-for-dummies-like-me-b6b8ace0f303) - ERC标准介绍**【推荐】**
++ [Ethereum, Gas, Fuel&Fees](https://media.consensys.net/ethereum-gas-fuel-and-fees-3333e17fe1dc) - 以太Gas的详细介绍**【推荐】**
++ [Ethereum in Depth](https://blog.zeppelin.solutions/ethereum-in-depth-part-2-6339cf6bddb9)
++ [Get to Know the 50+ Projects that Make Up the ConsenSys Mesh](https://media.consensys.net/get-to-know-the-47-projects-that-make-up-the-consensys-mesh-478b7d3028c1)
++ [Keep up with ConsenSys and the Ethereum Ecosystem - Blockchain basics, stats, shout-outs, tools, events, opportunities, and more from the ConsenSys Mesh](https://media.consensys.net/keep-up-with-consensys-and-the-ethereum-ecosystem-7577a5108e88) - 以太生态环境介绍**【推荐】**
++ [Mapping the Emerging Non-Fungible Token Landscape](https://medium.com/point-nine-news/mapping-the-emerging-non-fungible-token-landscape-ee56f0d1079f)
++ [以太坊将成为新互联网的骨干](https://medium.com/loom-network-chinese/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%B0%86%E6%88%90%E4%B8%BA%E6%96%B0%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E9%AA%A8%E5%B9%B2-a58c90fb0b3e)
++ [A Guide to Gas - A guide to gas, its purpose, its nuances, and its utility on the Ethereum blockchain.](https://media.consensys.net/a-guide-to-gas-12b40d03605d)
++ [Ethereum in Depth, Part 1](https://blog.zeppelin.solutions/ethereum-in-depth-part-1-968981e6f833) - EVM工作原理（一）
++ [Ethereum in Depth, Part 2](https://blog.zeppelin.solutions/ethereum-in-depth-part-2-6339cf6bddb9) - EVM工作原理（二）
++ [The State of Scaling Ethereum - A concise overview of the challenges and solutions to scaling the Ethereum Network](https://media.consensys.net/the-state-of-scaling-ethereum-b4d095dbafae)
++ [Practical Plasma (Volume I): Gaming - A series on practical uses of the Plasma technique by Loom Network](https://medium.com/loom-network/practical-plasma-volume-i-gaming-9cfd3f971734)
++ [A Gentle Introduction to Building a Full Stack DApp on Ethereum](https://medium.com/coinmonks/a-gentle-intro-to-building-a-full-stack-dapp-on-ethereum-part-1-c1aedb11fcd2)
++ [Making Sense of Ethereum’s Layer 2 Scaling Solutions: State Channels, Plasma, and Truebit](https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4)
++ [Walking Through the ERC721 Full Implementation - A Deep Dive into Managing ERC721 Assets](https://medium.com/blockchannel/walking-through-the-erc721-full-implementation-72ad72735f3c)
 
-### 智能合约开发
+### 工具箱
+
++ [Developer Tools](https://github.com/ConsenSys/ethereum-developer-tools-list) - 开发者工具箱**【推荐】**
++ [Solidity Cheat Sheet And Best Practices](https://github.com/manojpramesh/solidity-cheatsheet)
++ [Truffle Deep Dive: Ethereum’s Swiss Army Knife](https://media.consensys.net/truffle-deep-dive-what-you-need-to-know-when-developing-on-ethereum-e548d4df6e9)
++ [Everything You Possibly Need to Develop on Ethereum](https://media.consensys.net/everything-you-possibly-need-to-develop-on-ethereum-1bef0c23c7c6)
++ [8 ultimate resources to get started with Ethereum](https://hackernoon.com/5-resources-to-get-started-with-ethereum-4fbf1b5aa57a)
++ [ethers.js: Human-Readable Contract ABIs](https://blog.ricmoo.com/human-readable-contract-abis-in-ethers-js-141902f4d917)
++ [Here are the best courses and resources for learning Solidity (Ethereum dApps)](https://medium.com/covee-network/here-are-the-best-courses-and-resources-for-learning-solidity-ethereum-dapps-600e18287381)
++ [The Curious Programmer’s LightSpeed Guide to Building Applications on Ethereum](https://medium.com/wethinkideas/the-curious-programmers-lightspeed-guide-to-building-applications-on-ethereum-51f6b8fcd7c3)
++ [How to create a Token Factory with Ethereum](https://embark.status.im/tutorials/token_factory_2.html)
+
+### 智能合约
 + [Ethereum Development Walkthrough (Part 1: Smart contracts)](https://hackernoon.com/ethereum-development-walkthrough-part-1-smart-contracts-b3979e6e573e)
 + [Ethereum Development Walkthrough (Part 2: Truffle, Ganache, Geth and Mist)](https://hackernoon.com/ethereum-development-walkthrough-part-2-truffle-ganache-geth-and-mist-8d6320e12269)
 + [Ethereum Development Walkthrough (Part 3: Security, limitations, and considerations)](https://hackernoon.com/ethereum-development-walkthrough-part-3-security-limitations-and-considerations-d482f05278b4)
@@ -178,6 +341,32 @@
 + [Truffle - 以太坊Solidity编程语言开发框架](http://truffle.tryblockchain.org/index.html)
 + [安全编写以太坊的智能合约指南 - 区块链技术博客](http://me.tryblockchain.org/onward-with-ethereum-smart-contract-security.html)
 + [区块链开发实战：如何从零打造一个去中心化应用](http://mp.weixin.qq.com/s/3HVo0UWPRQ_VUteP8WwrTg)
++ [How to deploy an ERC20 token in 20 minutes](http://www.masonforest.com/blockchain/ethereum/2017/11/13/how-to-deploy-an-erc20-token-in-20-minutes.html)
++ [Building a production-ready Ethereum DApp from idea to final product](https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-first-section-the-3b9975a226c)
++ [EthereumDev](https://ethereumdev.io/)
++ [EthList: The Crowdsourced Ethereum Reading List](https://github.com/Scanate/EthList)
++ [Coursetro (beginner)](https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners)
++ [CRUD Part 1 (+++++)](https://medium.com/@robhitchens/solidity-crud-part-1-824ffa69509a)
++ [CRUD Part 2 (+++++)](https://medium.com/@robhitchens/solidity-crud-part-2-ed8d8b4f74ec)
++ [Learning Solidity (beginner → advanced. +++++)](https://www.youtube.com/channel/UCaWes1eWQ9TbzA695gl_PtA/videos)
++ [One-To-Many CRUD (+++++)](https://medium.com/@robhitchens/enforcing-referential-integrity-in-ethereum-smart-contracts-a9ab1427ff42)
++ [The Patient Smart Contract – Part 1 (beginner)](https://medium.com/@tejnikumbh/solidity-tutorial-1-the-skeleton-c311f1ea96b7)
++ [Your Final Guide About Creating Simple and Advanced ICO Smart Contracts](https://medium.com/@merunasgrincalaitis/your-final-guide-about-creating-simple-and-advanced-ico-smart-contracts-50a7d363417b)
++ [Ethereum Development Crash Course](https://medium.com/bitfwd/ethereum-development-crash-course-part-two-ee6c978d3a2c)
++ [Beginner Guide Write and deploy your first ICO smart contract under 30 minutes](https://hackernoon.com/beginner-guide-write-and-deploy-your-first-ico-smart-contract-under-30-minutes-stage-1-88774aa6bdc4)
++ [Building a production-ready Ethereum DApp from idea to final product — The smart-contract](https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-first-section-the-3b9975a226c)
++ [A well tested guide to upgradeable proxy Ethereum smart contracts](https://blog.indorse.io/a-well-tested-guide-to-upgradeable-proxy-ethereum-smart-contracts-f4b5111c12b0) - 可升级智能合约
++ [Summary of Ethereum Upgradeable Smart Contract R&D](https://blog.indorse.io/ethereum-upgradeable-smart-contract-strategies-456350d0557c) - 可升级智能合约的构造方式综述
++ [Test Driving an Ethereum Solidity Contract — Iteration 0: Setup](https://medium.com/@folkengine/as-software-developers-we-are-sharks-8ec62ff9833a)
++ [Why You Should Learn to Build Blockchain Apps](https://medium.com/loom-network/why-you-should-learn-to-build-blockchain-apps-be9a92e8d08e)
++ [CoinRace — bet on a price of cryptocurrency](https://medium.com/coinrace/coinrace-bet-on-a-price-of-crypto-3b65ddd17812)
++ [How to Secure Your Smart Contracts: 6 Solidity Vulnerabilities and how to avoid them](https://medium.com/loom-network/how-to-secure-your-smart-contracts-6-solidity-vulnerabilities-and-how-to-avoid-them-part-1-c33048d4d17d)
++ [Proxy Libraries in Solidity](https://blog.zeppelin.solutions/proxy-libraries-in-solidity-79fbe4b970fd)
++ [Upgradable Solidity Contract Design](https://medium.com/rocket-pool/upgradable-solidity-contract-design-54789205276d)
++ [Automated Smart Contract Security](https://medium.com/aikon/automated-smart-contract-security-de2daebfbef4)
++ [Flexible Upgradability for Smart Contracts](https://medium.com/level-k/flexible-upgradability-for-smart-contracts-9778d80d1638)
++ [Solidity Pitfalls and How to Avoid Them](https://hackernoon.com/solidity-pitfalls-and-how-to-avoid-them-24ba87735c7a)
++ [How to issue your own token on Ethereum in less than 20 minutes.](https://medium.com/bitfwd/how-to-issue-your-own-token-on-ethereum-in-less-than-20-minutes-ac1f8f022793)
 
 ### 代码示例
 + [GitHub - xilibi2003/TokenERC20: TokenERC20](https://github.com/xilibi2003/TokenERC20)
@@ -199,6 +388,7 @@
 + [ethereum-haskell](https://github.com/bkirwi/ethereum-haskell) - An independent and unaffiliated reimplementation of Ethereum in Haskell.
 + [INFURA](https://infura.io/) 直接使用在线接口，无需部署节点
 + [Remix](https://remix.ethereum.org/) - 可以在浏览器上建立测试网络
++ [A Primer on Ethereum Blockchain Light Clients](https://medium.com/zkcapital/a-primer-on-ethereum-blockchain-light-clients-f3cadde49137)
 
 ### 以太钱包
 + [Releases · ethereum/mist · GitHub](https://github.com/ethereum/mist/releases) - Ethereum Wallet，可选用Light Client方式同步
@@ -209,18 +399,9 @@
 + [imToken | Your First Smart Digital Wallet](https://token.im/) - 手机Ethereum钱包，可存放各种ERC20 Token
 + [Toshi](https://www.toshi.org/)
 + [Status | The Mobile Ethereum Client](https://status.im/)
-+ https://trustwalletapp.com/  - dapp钱包
-
-+ https://coinsutra.com/best-etherum-wallets/  - 以太钱包汇总
-+ https://coinsutra.com/best-erc20-tokens-wallets/ - 钱包评测
-
-### DAPP
-+ [The Ðapp Daily-Ethereum ecosystem updates from Sourcerers](https://dappdaily.com/)
-+ [ETH Decentralized apps list | DAPPRadar](https://dappradar.com/)
-+ [State of the ÐApps — 1074 Projects Built on Ethereum](https://www.stateofthedapps.com/)
-+ [Dapptrack](https://dapptrack.com/)
-+ [Essentia - Create Your Decentralized Life](https://essentia.one/)
-+ [Ethplorer — Ethereum tokens explorer and data viewer](https://ethplorer.io/)
++ [Trust Wallet](https://trustwalletapp.com/)  - dapp钱包
++ [Best Etherum Wallets](https://coinsutra.com/best-etherum-wallets/)  - 以太钱包汇总
++ [Best ERC20 Tokens Wallets](https://coinsutra.com/best-erc20-tokens-wallets/) - 钱包评测
 
 ### 交易平台
 
@@ -229,6 +410,11 @@
 + [OpenSea: Buy Crypto Assets, CryptoKitties, Collectibles on Ethereum & more](https://opensea.io/)
 + [RareBits - Buy, sell, and discover crypto assets](https://rarebits.io/)
 + [GitHub - evbots/dex-protocols: A list of protocols for decentralized exchange](https://github.com/evbots/dex-protocols)
++ [0X ($ZRX) ANALYSIS AND VALUATION](https://multicoin.capital/2017/12/14/0x-zrx-analysis-valuation/)
++ [ETHLend](https://ethlend.io/en/) 
++ [Decentralized Exchanges as the Future of Cryptocurrency Trading](https://medium.com/datadriveninvestor/decentralized-exchanges-as-the-future-of-cryptocurrency-trading-part-i-fd5effcde251)
++ [State of Decentralized Exchanges, 2018](https://media.consensys.net/state-of-decentralized-exchanges-2018-276dad340c79)
++ [Decentralized Cryptocurrency Exchanges](https://hackernoon.com/decentralized-cryptocurrency-exchanges-93039613eeb7)
 
 ### 游戏
 
@@ -249,10 +435,12 @@
 
 ## 应用
 +  [亿书——价值传播领导者](http://ebookchain.org/) - 基于区块链保护个人数据，实现知识聚合、知识付费、知识创富
++ [Fragmented | A decentralized social network for Ethereum enthusiasts.](http://fragmented.world/) - 去中心化社交平台
++ [Tom Square | A fully decentralized discussion platform built with Ethereum and IPFS](https://github.com/WillWhiteneck/Town-Square) - 去中心化论坛
 + [Howdoo](http://www.howdoo.io/)
-+ [Fragmented | A decentralized social network  for Ethereum enthusiasts.](http://fragmented.world/)
 
-## 媒体频道
+
+## 媒体
 
 ### ETH SUBREDDITS
 + <https://www.reddit.com/r/ethtrader/>
@@ -279,6 +467,11 @@
 + <https://medium.com/>
 + <http://www.newsbtc.com/>
 + <https://www.digitaltrends.com/>
++ [CoinSutra: Bitcoin Tips, Tutorials & Community](https://coinsutra.com/) - 非常好的媒体网站，每天有大量的基础性文章发布
++ [Blockonomi - Your Guide to the Blockchain Economy](https://blockonomi.com) - 有大量的介绍教程
++ [Crypto Daily](https://cryptodaily.co.uk/) - 英国的区块链媒体网站
++ [Coinhooked](https://coinhooked.com/)
++ [Trustnodes](https://www.trustnodes.com/)
 
 ### IMPORTANT
 + <https://bitcointalk.org/>
@@ -294,7 +487,7 @@
 + [Remix, the excellent Ethereum Solidity IDE](https://github.com/horizon-games/remix-app)
 + https://poanetwork.github.io/multisender/#/  - token分发工具
 
-## 量化交易
+## 交易
 
 + https://coinlib.io/best-price-explorer
 
@@ -305,3 +498,5 @@
 + https://hackernoon.com/wtf-is-an-airdrop-a-detailed-guide-to-free-cryptocurrency-e70e8777dd83?source=linkShare-1ad7d55c58f6-1519752058  - 领糖果的正确姿势
 + https://ethfiddle.com/ - 智能合约代码分享
 + https://airdropking.io/ - 空投大全
+
+
