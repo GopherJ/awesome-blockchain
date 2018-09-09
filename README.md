@@ -187,6 +187,7 @@
 + [Web3：新信任模型](https://mp.weixin.qq.com/s/xNdzirY5s27o1Kg_wq0Jgw)
 + [Web3.0：区块链定义分布式互联网](https://mp.weixin.qq.com/s/GcxuuGdiVYwQ_rUK-663SA)
 + [ĐApps: What Web 3.0 Looks Like](http://gavwood.com/dappsweb3.html) ETH CTO Gavin Wood描述的关于下一代互联网场景，他是Polkadot和Web3基金会创始人**【推荐】**
++ [Why We Need Web 3.0](https://breakermag.com/why-we-need-web-3-0/) - Gavin Wood
 + [Less-techy: What is Web 3.0?](http://gavwood.com/web3lt.html) 非技术化的版本
 + [Web3.0重新来临-第一篇：跨链和跨协议](https://mp.weixin.qq.com/s/0KbEPr9FBQHzkBOa-Vr9hQ)
 + [Web3.0重新来临-第二篇：介绍Polkadot的是与否](https://mp.weixin.qq.com/s/FO9BrKvGh3lcvznXOju5Nw)
@@ -244,11 +245,16 @@
 + [A Guide To Bitcoin’s Technical Brilliance (For Non-Programmers)](https://medium.com/digitalassetresearch/a-guide-to-bitcoins-technical-brilliance-for-non-programmers-e28211e797c0)
 + [The Bitcoin Scaling Debate: Context, Proposed Solutions, and the Future](https://hackernoon.com/the-bitcoin-scaling-debate-context-proposed-solutions-and-the-future-579f9373e24b)
 
+## 跨链/侧链
+
 ### 侧链
 + [A simple explanation of Bitcoin “Sidechains” | Richard Gendal Brown](https://gendal.me/2014/10/26/a-simple-explanation-of-bitcoin-sidechains/)
 + https://www.blockstream.com/sidechains.pdf
 + [11 sidechain projects every blockchain developer should know about](https://hackernoon.com/13-sidechain-projects-every-blockchain-developer-should-know-about-804b65364107) - 侧链项目介绍**【推荐】**
 + [DAppChains: Scaling Ethereum DApps Through Sidechains](https://medium.com/loom-network/dappchains-scaling-ethereum-dapps-through-sidechains-f99e51fff447)
+
+### 跨链
++ [Comparison of Inter-Blockchain Communication Technologies](http://troubles.md/posts/comparison-of-inter-blockchain-communication-technologies/) - Polkadot, Cosmos, Wanchain, Icon and Aion
 
 ## 以太坊
 
