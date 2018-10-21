@@ -116,6 +116,7 @@
 + [How to Build a Simple Crypto Trading Simulator](https://hackernoon.com/how-to-build-a-simple-crypto-trading-simulator-part-1-4ccdddcd6b76)
 + [On the Scalability of Blockchains](https://thecontrol.co/on-the-scalability-of-blockchains-ec76ed769405)
 + [Technology Choices When Building Your Own Blockchain](https://blog.cosmos.network/technology-choices-when-building-your-own-blockchain-a15385cf59bd)
++ [Blockchain Battle: Ethereum vs Cosmos vs Cardano vs EOS vs Hyperledger](http://blockgeeks.acemlnb.com/lt.php?s=c9a05d234974107ccb525ab753f9c11b&i=711A753A6A69288)
 
 ## 论坛
 
@@ -158,8 +159,8 @@
 
 ### 综述
 
-+ [Distributing Trust with Blockchains](https://cachin.com/cc/talks/20180705-blockchain-cern.pdf) - 深入浅出地介绍了各类共识算法，并配有图例**【推荐】**
-+ [Scaling, Decentralization, Security of Distributed Ledgers](https://medium.com/@shelby_78386/scaling-decentralization-security-of-distributed-ledgers-3855aa570eb5) - iamnotback的4篇雄文，深入讨论了各种共识机制**【推荐】**
++ [Distributing Trust with Blockchains](https://cachin.com/cc/talks/20180705-blockchain-cern.pdf) - 深入浅出地介绍了各类共识算法，并配有图例 **【推荐】**
++ [Scaling, Decentralization, Security of Distributed Ledgers](https://medium.com/@shelby_78386/scaling-decentralization-security-of-distributed-ledgers-3855aa570eb5) - iamnotback的4篇雄文，深入讨论了各种共识机制 **【推荐】**
 + [A Hitchhiker’s Guide to Consensus Algorithms – Hacker Noon](https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3) - 共识算法搭车者指南
 + [ConsensusPedia: An Encyclopedia of 30 Consensus Algorithms - A complete list of all consensus algorithms.](https://hackernoon.com/consensuspedia-an-encyclopedia-of-29-consensus-algorithms-e9c4b4b7d08f) - 共识算法大全**【推荐】**
 + [Consensus Mechanisms Explained: PoW vs. PoS](https://hackernoon.com/consensus-mechanisms-explained-pow-vs-pos-89951c66ae10)
