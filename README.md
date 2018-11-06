@@ -21,6 +21,7 @@
 + [DAPP](#DAPP)
 + [比特币](#比特币)
 + [以太坊](#以太坊)
++ [白皮书](#白皮书)
 + [应用](#应用)
 + [媒体](#媒体)
 + [工具](#工具)
@@ -42,7 +43,7 @@
 + 杨保华，陈昌 编著；《区块链原理、设计与应用》；机械工业出版社；
 + 朱志文 著；《Node.js区块链开发》
 + 张增骏 董宁 朱轩彤 陈剑雄 著；《深度探索区块链-Hyperledger技术与应用》；机械工业出版社；
-
++ 唐纳普斯科特、亚力克斯·塔斯普科特 著；《区块链革命：比特币底层技术如何改变货币、商业和世界》；中信出版社；
 
 ### 电子书
 
@@ -126,7 +127,7 @@
 + [区块链论坛-巴比特论坛](http://8btc.com/)
 + [区块链技术中文社区](https://bitshuo.com/)
 + [币问 - 区块链第一知识站](https://www.bitask.org/)
-
++ [ONEDEV - PRESSone|MIXIN|EOS|ETH](https://bbs.onedev.club/)
 
 ## 网站
 
@@ -465,11 +466,22 @@
 + [Ethbet Platform](https://ethbet.io/index.html)
 + [GamblingBitcoin.com – #1 bitcoin gambling sites & bonus list](https://gamblingbitcoin.com/)
 
+## 白皮书
+
++ [BTC](https://bitcoin.org/bitcoin.pdf)
++ [ETH](https://github.com/ethereum/wiki/wiki/White-Paper)
++ [EOS](https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md)
++ [MIXIN](https://mixin.one/assets/Mixin-Draft-2018-07-01.pdf)
++ [PRESSone](https://static.press.one/files/PRS_Whitepape_1_0_en.pdf)
+
+
 ## 应用
 +  [亿书——价值传播领导者](http://ebookchain.org/) - 基于区块链保护个人数据，实现知识聚合、知识付费、知识创富
 + [Fragmented | A decentralized social network for Ethereum enthusiasts.](http://fragmented.world/) - 去中心化社交平台
 + [Tom Square | A fully decentralized discussion platform built with Ethereum and IPFS](https://github.com/WillWhiteneck/Town-Square) - 去中心化论坛
 + [Howdoo](http://www.howdoo.io/)
++ [MIXIN](https://mixin.one/)
++ [PRESSone](https://press.one/)
 
 
 ## 媒体
