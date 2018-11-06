@@ -51,7 +51,7 @@
 + [申屠青春-区块链开发者指南](http://book.8btc.com/books/6/blockchain-developer-guide/_book/)
 + [GitHub - bitcoinbook/bitcoinbook: Mastering Bitcoin 2nd Edition - Programming the Open Blockchain](https://github.com/bitcoinbook/bitcoinbook) **【推荐】**
 + [GitHub - ethereumbook/ethereumbook: Mastering Ethereum, by Andreas M. Antonopoulos, Gavin Wood](https://github.com/ethereumbook/ethereumbook) **【推荐】**
-+ [NISTIR 8202 Blockchain Technology Overview](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf) - 美国NIST出版的区块链技术介绍
++ [NISTIR 8202 Blockchain Technology Overview](https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf) - 美国国家标准与技术研究所NIST出版的区块链技术介绍
 
 
 ## 视频
@@ -184,7 +184,7 @@
 + [Why the net giants are worried about the Web 3.0|为什么巨头们会为 WEB 3.0 而担忧](https://github.com/BlockchainTranslator/General/blob/master/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B7%A8%E5%A4%B4%E4%BB%AC%E4%BC%9A%E4%B8%BA%20WEB%203.0%20%E8%80%8C%E6%8B%85%E5%BF%A7.md)
 + [去中心化的Web 3.0是什么来头？互联网巨头们颤抖吧……](https://mp.weixin.qq.com/s/pmJBosOga8ZDxD4Et9uOAg)
 + [什么是Web 3.0？你为什么应该了解它？](https://mp.weixin.qq.com/s/bJ9GOXNj9DSv1MsKshd0uA)
-+ [The Web3 Stack - Multicoin Capital](https://multicoin.capital/2018/07/10/the-web3-stack/) 
++ [The Web3 Stack - Multicoin Capital](https://multicoin.capital/2018/07/10/the-web3-stack/)
 + [链闻深度：Web3 堆栈全景剖析](https://mp.weixin.qq.com/s/4LdRVceiBqYZW9WrMmJOIA)
 + [你需要知道的 Web 3.0 图景，统统在这里](https://mp.weixin.qq.com/s/RBysmlDqbwcoYmoA7t-sFg)
 + [Web 3.0 Dapps 来临：开源、去中心、激励、算法/协议](https://mp.weixin.qq.com/s/YVrkxw7nji3uj0FBGykXgQ) 文末有很多可用的PPT
@@ -247,6 +247,8 @@
 + [Building a production-ready Ethereum DApp from idea to final product — The smart-contract](https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-the-smart-contract-pt-3-2e117c74e61e)
 + [Building a fully decentralized User profile app on Ethereum and IPFS](https://medium.com/@sebinatx/building-a-fully-decentralized-user-profile-dapp-on-ethereum-and-ipfs-e55afac35718)
 + [The State of Decentralized Oracles](https://media.consensys.net/the-state-of-decentralized-oracles-df45bf0dc51d)
++ [Decentralized Applications](https://medium.com/coinbundle/decentralized-applications-e695d8a54555)
++ [Limitations to Decentralisation](https://medium.com/@urlichsanais/limitations-to-decentralisation-2504b029f378)
 
 ## 跨链/侧链
 
@@ -441,7 +443,7 @@
 + [RareBits - Buy, sell, and discover crypto assets](https://rarebits.io/)
 + [GitHub - evbots/dex-protocols: A list of protocols for decentralized exchange](https://github.com/evbots/dex-protocols)
 + [0X ($ZRX) ANALYSIS AND VALUATION](https://multicoin.capital/2017/12/14/0x-zrx-analysis-valuation/)
-+ [ETHLend](https://ethlend.io/en/) 
++ [ETHLend](https://ethlend.io/en/)
 + [Decentralized Exchanges as the Future of Cryptocurrency Trading](https://medium.com/datadriveninvestor/decentralized-exchanges-as-the-future-of-cryptocurrency-trading-part-i-fd5effcde251)
 + [State of Decentralized Exchanges, 2018](https://media.consensys.net/state-of-decentralized-exchanges-2018-276dad340c79)
 + [Decentralized Cryptocurrency Exchanges](https://hackernoon.com/decentralized-cryptocurrency-exchanges-93039613eeb7)
