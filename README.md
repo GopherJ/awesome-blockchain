@@ -466,6 +466,9 @@
 + [Ethbet Platform](https://ethbet.io/index.html)
 + [GamblingBitcoin.com – #1 bitcoin gambling sites & bonus list](https://gamblingbitcoin.com/)
 
+## EOS
++ [EOS: An Architectural, Performance, and Economic Analysis](https://hackernoon.com/eos-an-architectural-performance-and-economic-analysis-43a466064712) - EOS详细介绍 **【推荐】**
+
 ## 白皮书
 
 + [BTC](https://bitcoin.org/bitcoin.pdf)
