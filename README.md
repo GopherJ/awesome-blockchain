@@ -119,6 +119,8 @@
 + [On the Scalability of Blockchains](https://thecontrol.co/on-the-scalability-of-blockchains-ec76ed769405)
 + [Technology Choices When Building Your Own Blockchain](https://blog.cosmos.network/technology-choices-when-building-your-own-blockchain-a15385cf59bd)
 + [Blockchain Battle: Ethereum vs Cosmos vs Cardano vs EOS vs Hyperledger](http://blockgeeks.acemlnb.com/lt.php?s=c9a05d234974107ccb525ab753f9c11b&i=711A753A6A69288)
++ [What’s the Difference Between Blockchain & Distributed Ledger Technology?](https://medium.com/blockchain-review/whats-the-difference-between-blockchain-distributed-ledger-technology-19407f2c2216)
++ [How Does the Blockchain Work?](https://medium.com/s/story/how-does-the-blockchain-work-98c8cd01d2ae)
 
 ## 论坛
 
@@ -169,6 +171,8 @@
 + [Consensus Mechanisms Explained: PoW vs. PoS](https://hackernoon.com/consensus-mechanisms-explained-pow-vs-pos-89951c66ae10)
 + [On consensus](https://medium.com/@jcliff/on-consensus-e47920cd8914)
 + [A Distributed Systems Primer For People That Don't Have the Time.](https://sekniqi.com/blog/a-distributed-systems-primer-for-non-experts.html)
++ [What are the different types of DLTs & how they work?](https://www.datadriveninvestor.com/2019/02/14/what-are-the-different-types-of-dlts-how-they-work/)
++ [Why Military Blockchain is Critical in the Age of Cyber Warfare - 4 ways blockchain can secure and defend key military assets and weapons systems.](https://media.consensys.net/why-military-blockchain-is-critical-in-the-age-of-cyber-warfare-93bea0be7619)
 
 ### POS
 
@@ -177,6 +181,7 @@
 + [干货 | Ethereum Casper 101  » 论坛 » EthFans | 以太坊爱好者](https://ethfans.org/posts/ethereum-casper-101)
 + [干货 | 什么是以太坊大都会：终极指南 » EthFans | 以太坊爱好者](https://ethfans.org/zzzhang/articles/618)
 + [Nothing Considered: A look at Nothing at Stake Vulnerability for Cryptocurrencies | PIVX](https://pivx.org/nothing-considered-a-look-at-nothing-at-stake-vulnerability-for-cryptocurrencies/) 对Nothing at Stake攻击的反驳
++ [Proof of Stake and the History of Distributed Consensus](https://medium.com/thundercore/proof-of-stake-and-the-history-of-distributed-consensus-part-1-nakamoto-consensus-byzantine-176e0156316e)
 
 ## Web3
 
@@ -215,6 +220,9 @@
 + [The Forgotten Side of Decentralization Where should content live on Web3?](https://media.consensys.net/the-forgotten-side-of-decentralization-f713aaa8c8b4) - 对Web3存储方案的比较 **【推荐】**
 + [TokenWork: Understanding Token User Profiles Blockchain platforms must build around the unique needs of Web3 users if they want to succeed.](https://media.consensys.net/tokenwork-understanding-token-user-profiles-16c033661f31?_hsenc=p2ANqtz-8prQHUGVPIMhtb4gPlkiRq1oqQa1E7quq6vOtyi3uUzZxpn3RJzndlUHnrw0UBpmhiemW8Axx6UCuAM7_pMkPpwDAuLw&_hsmi=66491259) - Web3用户的需求是什么
 + [Reputation in Web3](https://www.tokendaily.co/blog/reputation-in-web-3)
++ [Blockchain Explained: How Web 3.0 Will Create New Business Models](https://media.consensys.net/episode-4-what-is-web-3-0-and-how-can-it-create-new-business-models-d07bc2e91041)
++ [Messaging for Web 3.0: Building an Anonymous Messaging Protocol](https://medium.com/web3foundation/messaging-for-web-3-0-building-an-anonymous-messaging-protocol-e29db72f4d19)
++ [The Decentralised Threat to Advertising](https://hackernoon.com/the-decentralised-threat-to-advertising-9359f2e32b4)
 
 ## DAPP
 + [The Ðapp Daily-Ethereum ecosystem updates from Sourcerers](https://dappdaily.com/)
@@ -248,8 +256,8 @@
 + [Building a production-ready Ethereum DApp from idea to final product — The smart-contract](https://blog.amr-gawish.com/building-a-production-ready-ethereum-dapp-from-idea-to-final-product-the-smart-contract-pt-3-2e117c74e61e)
 + [Building a fully decentralized User profile app on Ethereum and IPFS](https://medium.com/@sebinatx/building-a-fully-decentralized-user-profile-dapp-on-ethereum-and-ipfs-e55afac35718)
 + [The State of Decentralized Oracles](https://media.consensys.net/the-state-of-decentralized-oracles-df45bf0dc51d)
-+ [Decentralized Applications](https://medium.com/coinbundle/decentralized-applications-e695d8a54555)
 + [Limitations to Decentralisation](https://medium.com/@urlichsanais/limitations-to-decentralisation-2504b029f378)
++ [Decentralized Applications - DApp it up, bro!](https://medium.com/coinbundle/decentralized-applications-e695d8a54555)
 
 ## 跨链/侧链
 
@@ -258,11 +266,22 @@
 + https://www.blockstream.com/sidechains.pdf
 + [11 sidechain projects every blockchain developer should know about](https://hackernoon.com/13-sidechain-projects-every-blockchain-developer-should-know-about-804b65364107) - 侧链项目介绍 **【推荐】**
 + [DAppChains: Scaling Ethereum DApps Through Sidechains](https://medium.com/loom-network/dappchains-scaling-ethereum-dapps-through-sidechains-f99e51fff447)
++ [Second Layers are Not the Scalability Silver Bullet](https://medium.com/logos-network/second-layers-are-not-the-scalability-silver-bullet-a9d262bc816c)
 
 ### 跨链
 + [Comparison of Inter-Blockchain Communication Technologies](http://troubles.md/posts/comparison-of-inter-blockchain-communication-technologies/) - Polkadot, Cosmos, Wanchain, Icon and Aion
 + [A Deep Look Into Cosmos — the Internet of Blockchains](https://medium.com/@juliankoh/a-deep-look-into-cosmos-the-internet-of-blockchains-af3aa1a97a5b)
 + [What Are Atomic Swaps? Ultimate Guide](https://blockgeeks.com/guides/atomic-swaps/)
++ [Into the CØSMOS - Our Cosmos Investment Thesis](https://thecontrol.co/into-the-c%C3%B8smos-433586b82865)
++ [A brief summary of everything Substrate and Polkadot](https://medium.com/polkadot-network/a-brief-summary-of-everything-substrate-and-polkadot-f1f21071499d)
++ [Atomic Swaps — The Interoperability Revolution in Cryptos](https://medium.com/datadriveninvestor/atomic-swaps-the-interoperability-revolution-in-cryptos-f7ddf1381d47)
++ [A Primer on Blockchain Interoperability](https://medium.com/blockchain-capital-blog/a-primer-on-blockchain-interoperability-e132bab805b)
+
+## 隐私
++ [Zero Knowledge Proof Example](https://hackernoon.com/zero-knowledge-proof-example-fb2f110573be)
++ [The Battle for Blockchain Privacy: Monero - The ultimate guide to the top privacy coin by market cap. This post covers the mechanics, history, and pros/cons of Monero.](https://medium.com/all-things-venture-capital/privacy-protocol-analysis-monero-c116d7c2106f)
++ [Introduction to zk-SNARKs with examples](https://media.consensys.net/introduction-to-zksnarks-with-examples-3283b554fc3b)
++ [Zero-knowledge proofs, a board game, and leaky abstractions: how I learned zk-SNARKs from scratch](https://medium.com/@weijiek/how-i-learned-zk-snarks-from-scratch-177a01c5514e)
 
 ## 比特币
 
@@ -312,11 +331,16 @@
 + [Twelve reasons I’m bullish about Ethereum today](https://medium.com/crypto-nyc/twelve-reasons-im-bullish-about-ethereum-today-809a234312b2)
 + [How Will Ethereum Scale? Top Talks from Devcon3 Summarized](https://medium.com/loom-network/how-will-ethereum-scale-top-talks-from-devcon3-summarized-f51f99ed4602)
 + [Different Blockchains: Ethereum vs Cosmos vs Hyperledger And More!](https://blockgeeks.com/guides/different-blockchains/)
++ [Insights into the Ethereum ecosystem - Analysis of the top 250 ERC-20 tokens by market cap](https://medium.com/coinmonks/insights-into-the-ethereum-ecosystem-6ffff98e1f0e)
 
 ### ETH2.0
 + [A Simplified Look at Ethereum’s Casper](https://medium.com/coinmonks/a-simplified-look-at-ethereums-casper-4fa9461b245)
 + [Ethereum 2.0 and the Future of Scalable Blockchain](https://medium.com/futuresin/ethereum-2-0-and-the-future-of-scalable-blockchain-389cfcc7760c)
 + [A Brief History of Ethereum's Future](https://docs.google.com/presentation/d/1iJtuO8tBxVn_oKJAh_6TUtS6SzEWVdbr-7D-guEKGtQ)
++ [Exploring Ethereum 2.0 Design Goals](https://media.consensys.net/exploring-the-ethereum-2-0-design-goals-fd2d901b4c01)
++ [Examining the Proposed Validator Economics of Ethereum 2.0](https://media.consensys.net/examining-the-proposed-validator-economics-of-ethereum-2-0-82b934fb4326)
++ [Validator Economics of Ethereum 2.0 — Part One](https://tokeneconomy.co/validator-economics-of-ethereum-2-0-part-one-bc188173cdca)
++ [Validator Economics of Ethereum 2.0 — Part 2…The Ether Vacuum](https://tokeneconomy.co/validator-economics-of-ethereum-2-0-part-2-the-ether-vacuum-418f1b32c99e)
 
 ### 工具箱
 
@@ -468,6 +492,10 @@
 
 ## EOS
 + [EOS: An Architectural, Performance, and Economic Analysis](https://hackernoon.com/eos-an-architectural-performance-and-economic-analysis-43a466064712) - EOS详细介绍 **【推荐】**
++ [Is EOS Really Decentralized?](https://medium.com/@Michael_Spencer/is-eos-really-decentralized-ceec89440dd3)
+
+## FileCoin
++ [Ultimate Guide to Filecoin: Breaking Down Filecoin Whitepaper & Economics](https://medium.com/swlh/ultimate-guide-to-filecoin-breaking-down-filecoin-whitepaper-economics-9212541a5895)
 
 ## 白皮书
 
