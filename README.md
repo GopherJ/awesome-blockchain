@@ -345,6 +345,7 @@
 ### 工具箱
 
 + [Developer Tools](https://github.com/ConsenSys/ethereum-developer-tools-list) - 开发者工具箱 **【推荐】**
++ [Create ETH App](https://github.com/PaulRBerg/create-eth-app) - DAPP模板，使用React
 + [Solidity Cheat Sheet And Best Practices](https://github.com/manojpramesh/solidity-cheatsheet)
 + [Truffle Deep Dive: Ethereum’s Swiss Army Knife](https://media.consensys.net/truffle-deep-dive-what-you-need-to-know-when-developing-on-ethereum-e548d4df6e9)
 + [Everything You Possibly Need to Develop on Ethereum](https://media.consensys.net/everything-you-possibly-need-to-develop-on-ethereum-1bef0c23c7c6)
@@ -424,6 +425,7 @@
 + [How to issue your own token on Ethereum in less than 20 minutes.](https://medium.com/bitfwd/how-to-issue-your-own-token-on-ethereum-in-less-than-20-minutes-ac1f8f022793)
 + [How to Audit a Smart Contract](https://blockgeeks.com/guides/audit-smart-contract/)
 + [ETHSecurity Resources](https://github.com/ethsecurity/berlin-workshop)
++ [Smart Contract Development Best Practices](https://yos.io/2019/11/10/smart-contract-development-best-practices/)
 
 ### 代码示例
 + [GitHub - xilibi2003/TokenERC20: TokenERC20](https://github.com/xilibi2003/TokenERC20)
